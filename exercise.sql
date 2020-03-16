@@ -1,0 +1,4 @@
+-- CREATE DATABASE NetLand;
+
+SELECT *
+FROM series;

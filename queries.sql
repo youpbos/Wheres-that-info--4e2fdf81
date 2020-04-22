@@ -1,24 +1,26 @@
--- select title
--- from series
--- where has_won_awards >= 1;
+-- SELECT 
+-- 	title
+-- FROM
+-- 	series
+-- WHERE
+-- 	rating >= 2.5 
+-- ORDER BY
+-- 	rating DESC;
 
--- select title
--- from series
--- where rating >= 2.5;
+-- SELECT 
+-- 	title
+-- FROM
+-- 	series
+-- WHERE
+-- 	seasons <= 4 
+-- ORDER BY
+-- 	seasons DESC;
 
--- select title
--- from series
--- where language = "EN";
-
--- select title
--- from series
--- where seasons <= 4;
-
--- select title
--- from series
--- where rating = 5;
-
--- select title
--- from series
--- where seasons <=3 and seasons >=20;
-
+-- SELECT 
+-- 	title
+-- FROM 
+-- 	series
+-- WHERE 
+-- 	rating < 3 OR rating > 20
+-- ORDER BY 
+-- 	seasons AND country DESC;
